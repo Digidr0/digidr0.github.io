@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/digidro-website/static/css/main.31f0f0e5.css",
+    "main.js": "/digidro-website/static/js/main.6dae2dbd.js",
+    "static/js/453.5b254886.chunk.js": "/digidro-website/static/js/453.5b254886.chunk.js",
+    "index.html": "/digidro-website/index.html",
+    "main.31f0f0e5.css.map": "/digidro-website/static/css/main.31f0f0e5.css.map",
+    "main.6dae2dbd.js.map": "/digidro-website/static/js/main.6dae2dbd.js.map",
+    "453.5b254886.chunk.js.map": "/digidro-website/static/js/453.5b254886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f0f0e5.css",
+    "static/js/main.6dae2dbd.js"
+  ]
+}

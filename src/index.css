@@ -1,13 +1,69 @@
+
+*::selection{
+  color: #353535;
+  background-color: #e1e1e1;
+}
 body {
+  color: #e1e1e1;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Geometria", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+.preloader.hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+}
+
+.loader {
+  font-size: 3.5rem;
+  color: #e1e1e1;
+  font-weight: 600;
+  animation: pulse 1.5s infinite;
+}
+
+#load{
+  width: 2em;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Анимация контента */
+.content {
+  opacity: 0;
+  transition: opacity 0.5s ease 0.2s;
+}
+
+.content.visible {
+  opacity: 1;
+}
+/* Остальные существующие стили остаются без изменений */

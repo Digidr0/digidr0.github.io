@@ -1,14 +1,117 @@
-.app {
-  background-color: #000;
+* {
+  /* outline: 1px solid #ff000077; */
+}
+body{
+  overflow: hidden;
+}
+#bg-color{
+  content: "2";
+  position: absolute;
+  background-color: #0D0D0D;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+#paper{
+  pointer-events: none;
+position: absolute; 
+width: 100vw;
+height: 100vh;
+object-fit: fill;
+background-repeat: repeat;
+opacity: 0.23;
+z-index: 1;
+
+}
+.content, .App {
+  background-color: #20202000;
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+.title {
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  transform: translateY(2em);
+}
+.figures {
+  pointer-events: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+.figure {
+  position: absolute;
+  height: 10vh;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+#oval {
+  height: 10vw;
+  top: 11vw;
+  left: 6vw;
+  mask: url("./assets/oval.png") center/contain no-repeat;
+  -webkit-mask: url("./assets/oval_mask.png") center/contain no-repeat;
+}
+#star {
+  height: 13vw;
+  top: 1vw;
+  left: 24.5vw;
+  mask: url("./assets/star.png") center/contain no-repeat;
+  -webkit-mask: url("./assets/star_mask.png") center/contain no-repeat;
+}
+#disk {
+  height: 9vw;
+  top: 12vw;
+  left: 43.5vw;
+  mask: url("./assets/disk.png") center/contain no-repeat;
+  -webkit-mask: url("./assets/disk_mask.png") center/contain no-repeat;
+}
+#cube {
+  height: 11vw;
+  top: 4vw;
+  left: 57vw;
+  mask: url("./assets/cube.png") center/contain no-repeat;
+  -webkit-mask: url("./assets/cube_mask.png") center/contain no-repeat;
+}
+.header {
+  color: #ffffff;
+  font-size: 17.5vw;
+  font-family: "geometria";
+  font-weight: 800;
+}
+.subheader {
+  font-weight: 300;
+  font-size: 1.2vw;
+  letter-spacing: 0.2vw;
+}
+#figma {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  height: 100vh;
+  opacity: 0.7;
+}
+.pop-up{
+  animation: pop-up both 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+@keyframes pop-up {
+  0% { transform: translateY(-50px); }
+  100% { transform: translateY(0px); }
 }
 
-h1 {
-  color: #fff;
-  font-size: 5rem;
-  font-family: Arial, sans-serif;
-  letter-spacing: 4px;
+@keyframes idle {
+  0%, 100% { transform: translateY(-5px); }
+  50% { transform: translateY(5px); }
 }
+

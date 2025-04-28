@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce510391.css",
-    "main.js": "/static/js/main.aea59e80.js",
-    "static/js/453.5b254886.chunk.js": "/static/js/453.5b254886.chunk.js",
+    "main.css": "/static/css/main.89bdfced.css",
+    "main.js": "/static/js/main.9d3ffffe.js",
+    "static/js/453.4939a883.chunk.js": "/static/js/453.4939a883.chunk.js",
     "static/media/cube.png": "/static/media/cube.e74f3b8122062b059606.png",
     "static/media/paper.png": "/static/media/paper.8dd057dedcac52dce774.png",
+    "static/media/sphere.png": "/static/media/sphere.868ffc8d9cb67f97e98a.png",
     "static/media/oval.png": "/static/media/oval.6b3ceb5262e5a1a0d24f.png",
     "static/media/disk.png": "/static/media/disk.09016ad8c0f519b5fa07.png",
     "static/media/star.png": "/static/media/star.9157b99e47d3123834ff.png",
+    "static/media/Ruina Shop logo.png": "/static/media/Ruina Shop logo.4a0ead28573409f5f437.png",
     "static/media/Geometria-Italic.woff2": "/static/media/Geometria-Italic.eb683c6212d06280e82e.woff2",
     "static/media/Geometria-ExtraLightItalic.woff2": "/static/media/Geometria-ExtraLightItalic.220158962a5e0f50e00a.woff2",
     "static/media/Geometria-HeavyItalic.woff2": "/static/media/Geometria-HeavyItalic.215c10e9385aa91b194c.woff2",
@@ -24,23 +26,27 @@
     "static/media/Geometria-Bold.woff2": "/static/media/Geometria-Bold.769449872393fcec5187.woff2",
     "static/media/Geometria-ExtraBold.woff2": "/static/media/Geometria-ExtraBold.401335bab5857c29b783.woff2",
     "static/media/Geometria-Thin.woff2": "/static/media/Geometria-Thin.2ba5b6c5054039034def.woff2",
-    "static/media/star_mask.png": "/static/media/star_mask.2f29f69a99a1c72458fe.png",
-    "static/media/cube_mask.png": "/static/media/cube_mask.78cc12f53748344eab29.png",
-    "static/media/oval_mask.png": "/static/media/oval_mask.d628e045a15623e2e5ef.png",
-    "static/media/disk_mask.png": "/static/media/disk_mask.6310359849af70233a43.png",
+    "static/media/Cosmetolog logo.png": "/static/media/Cosmetolog logo.85785c608f52048ce8b1.png",
+    "static/media/DMK-AUTO logo.png": "/static/media/DMK-AUTO logo.c153753bd53bf0450420.png",
+    "static/media/star_mask.svg": "/static/media/star_mask.d0b8f6c3b35d4ecef6ad.svg",
     "static/media/STEAM.svg": "/static/media/STEAM.ba1daef1902859930093df8da14c1805.svg",
     "static/media/DS.svg": "/static/media/DS.aea80034d5f6f5368d63f49b454aee05.svg",
+    "static/media/cube_mask.svg": "/static/media/cube_mask.76ed8c26ac79f1591b3a.svg",
     "static/media/VK.svg": "/static/media/VK.d93a49661e6d38e992ce993b45a9b0c5.svg",
     "static/media/GH.svg": "/static/media/GH.3bdb80485a0e89be4486776da79a6b0a.svg",
     "index.html": "/index.html",
+    "static/media/oval_mask.svg": "/static/media/oval_mask.6e683a229fd887b89942.svg",
+    "static/media/disk_mask.svg": "/static/media/disk_mask.38baed4a7baf7ce266e8.svg",
     "static/media/TG.svg": "/static/media/TG.9435fe835beac2e10abddb8adadc1162.svg",
     "static/media/TWITCH.svg": "/static/media/TWITCH.d452301e797893fe6902a8c49bea0511.svg",
-    "main.ce510391.css.map": "/static/css/main.ce510391.css.map",
-    "main.aea59e80.js.map": "/static/js/main.aea59e80.js.map",
-    "453.5b254886.chunk.js.map": "/static/js/453.5b254886.chunk.js.map"
+    "static/media/info.svg": "/static/media/info.a603073904565f7af0d0dd4b7be3ea91.svg",
+    "static/media/cross.svg": "/static/media/cross.25c6b40080c4d521b3b2617fdbe733e8.svg",
+    "main.89bdfced.css.map": "/static/css/main.89bdfced.css.map",
+    "main.9d3ffffe.js.map": "/static/js/main.9d3ffffe.js.map",
+    "453.4939a883.chunk.js.map": "/static/js/453.4939a883.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce510391.css",
-    "static/js/main.aea59e80.js"
+    "static/css/main.89bdfced.css",
+    "static/js/main.9d3ffffe.js"
   ]
 }
